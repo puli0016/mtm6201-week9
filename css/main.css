@@ -1,0 +1,47 @@
+.dice4 circle{
+    fill: orange;
+    transition: all .5s;
+    transform-origin: 50px 50px;
+}  
+
+.dice4:hover circle {
+    transform: scale(1.4);
+    fill: plum;
+}
+
+.dice5 g{
+    transition: all .5s;
+    transform-origin: center center;
+}  
+
+.dice5:hover g{
+    transform: scale(1.4);
+}
+
+.cls-1{
+    fill:#ffe269;
+}
+.cls-2{
+    fill:#fff;
+}
+.cls-3{
+    fill:#fcf0c0;
+}
+
+.pupil{
+    transition: all 1s;
+}
+
+svg:hover .pupil{
+    transform: translateX(10px);
+}
+
+@keyframes move  {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+    
+}
